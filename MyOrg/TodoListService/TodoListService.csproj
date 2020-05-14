@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-TodoListService-03230DB1-5145-408C-A48B-BE3DAFC56C30</UserSecretsId>
+    <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Microsoft.Identity.Web\Microsoft.Identity.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Identity.Web">
+      <HintPath>..\..\..\2-WebApp-graph-user\2-1-Call-MSGraph\bin\Debug\netcoreapp3.1\Microsoft.Identity.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

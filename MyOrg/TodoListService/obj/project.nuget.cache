@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "A+wQKHXCqe/q65o8N1PTLxN2ixX7HkOyn0vKYv6YS/Ndpe/odffYET8WRiWog51bwPJ3zxdSx30CCwwHI4UHjQ==",
+  "success": false,
+  "projectFilePath": "E:\\EduaCity\\MyOrg\\TodoListService\\TodoListService.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\Microsoft.Identity.Web\\Microsoft.Identity.Web.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\Microsoft.Identity.Web\\Microsoft.Identity.Web.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
